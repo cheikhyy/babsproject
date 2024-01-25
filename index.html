@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/c3d950556c.js" crossorigin="anonymous"></script>
+    <title>AL_khalifa_Automobile</title>
+    <link rel="icon" type="image/jpg" href="/images/img23.png">
+</head>
+<body>
+  <header>
+    <a href="#" class="logo"><span>AL</span>khalifa_<span>Auto</span>mobile <i class="fa-solid fa-car"></i>
+    </a>
+    <div class=menuToggle onclick="toggleMenu();"></div> 
+    <ul class="navbar">
+        <li><a href="#banniere" onclick="toggleMenu();">Accueil</a></li>
+        <li><a href="#apropos" onclick="toggleMenu();">A propos</a></li>
+        <li><a href="#menu" onclick="toggleMenu();">Vehicules</a></li>
+        <li><a href="#expert" onclick="toggleMenu();">LOCATION</a></li>
+        <li><a href="#temoignage" onclick="toggleMenu();">Temoignage</a></li>
+        <li><a href="#inscription" onclick="toggleMenu();">Contact</a></li>
+        <a href="#inscription" class="btn-reserve"  onclick="toggleMenu();">Reservation</a>
+        
+    </ul>
+  </header> 
+  </section>
+  <section class="banniere" id="banniere">
+     <div class="contenu">
+        <h2>Le meilleur, de l'automobile </h2> 
+        <p><strong>Depuis</strong> nos débuts sous le nom de <strong>AL_khalifa_Automobile</strong> , nous avons toujours visé à moderniser l’expérience d’achat du client. Nos décennies de connaissances, associées à notre compréhension innée de la valeur des données fiables et à notre volonté de faire progresser certains secteurs de l’industrie automobile, nous ont permis d’évoluer pour devenir le Savoir automobile.></p>
+        <a href="#menu" class="btn1">Nos Voitures</a>
+        <a href="#inscription" class="btn2">Reservation</a>  
+     </div>
+  </section>
+  <section>
+  <div class="d-flex searchbar">
+    <input autocomplete="off" id="search_input" type="text" placeholder="Rechercher des véhicules" class="ui-autocomplete-input">
+    <button id="search_btn" class="btn btn-xs btn-primary"><i class="fa fa-search fa-xs"></i></button>
+    <input type="hidden" id="field_input" value="vehicles.title">
+</div>
+</section>
+
+  <section class="apropos" id="apropos"> 
+    <div class="row">
+       <div class="col50">
+           <h2 class="titre-texte"><span>A</span> Propos De Nous</h2>
+           <p>       
+            Voitures de Qualité Supérieure à Prix Compétitifs. Obtenez Votre Devis Aujourd'hui! <strong>AL_khalifa_Automobile</strong>, Distributeur De Voitures Importées à Dubaï & Belgique. Contactez-Nous. Services les mieux notés. 10+ ans en affaires. Plus de 50 avis. Assistance <mark class="monter">24h/24 et 7j/7.</mark> Services: 4x4 Cars, Sedan Cars, Hatchback Cars, Automatic Cars, Manual Cars, Diesel Cars, Gasoline Cars.
+           </p>
+       </div>
+       <div class="col50">
+          <div class="img">
+           <img src="./images/img3.JPG" alt="image">
+       </div>
+    </div>
+ </section>
+ <section class="menu" id="menu">
+  <div class="titre">
+      <h2 class="titre-texte"><span>NOS </span>Voitures</h2>
+      <p1> Bienvenue chez  <strong> AL_khalifa_Automobile</strong>, nous sommes ravis de vous compter parmi nos clients et de vous accompagner en toute sérénité dans vos trajets. <br/>
+        Trouver la meilleure compagnie d'assurance automobile pour vous <br/>
+       <br/> Les prix et les remises constituaient une partie de la note de chaque assureur, mais nous savons que le coût est le principal facteur pour de nombreux acheteurs d’assurance automobile. Étant donné que la tarification est basée sur des facteurs personnels, notamment votre âge, votre emplacement, vos antécédents de crédit et de véhicule et votre sexe (dans la plupart des cas), il est important de magasiner pour obtenir des devis d'assurance automobile.<br/>
+        
+       <br/> Si le prix est le facteur le plus important dans votre recherche, la comparaison des devis d'assurance automobile peut vous aider à trouver le tarif le moins cher. Mais votre expérience d’achat mettra également en lumière les normes de service à la clientèle d’une entreprise.</p>
+  </div>
+  <div class="contenu">
+      <div class="box">
+          <div class="imbox">
+            <slide><img  src="./images/c1.jpg" alt=""></slide> 
+          </div>
+          <div class="text">
+              <h3>BMW X6 <br/> ❤️</h3>
+          </div>
+      </div>
+      <div class="box">
+          <div class="imbox">
+            <slide><img class="slideo" src="./images/c2.jpg" alt=""></slide> 
+          </div>
+          <div class="text">
+             <h3>Audi S4 <br/> ❤️</h3>
+          </div>
+      </div>
+      <div class="box">
+          <div class="imbox">
+             <slide><img src="./images/c3.jpg" alt=""></slide> 
+          </div>
+          <div class="text">
+              <h3>Volkswagen sixième génération.<br/>  ❤️</h3>
+          </div>
+      </div>
+      <div class="box">
+          <div class="imbox">
+           <slide><img src="./images/c4.jpg" alt=""></slide>
+          </div>
+          <div class="text">
+              <h3>Mercedes AMG GTS <br/> ❤️</h3>
+          </div>
+      </div>
+      <div class="box">
+          <div class="imbox">
+              <img class="slideo" src="./images/c5.jpg" alt="">
+          </div>
+          <div class="text">
+              <h3>Citroën C4  <br/>  ❤️ </h3>  
+          </div>
+      </div>
+      <div class="box">
+          <div class="imbox">
+            <slide><img src="./images/c6.jpg" alt=""></slide> 
+          </div>
+          <div class="text">
+              <h3>Škoda Superb Combi : du coffre et du style !<br/>  ❤️  </h3>
+          </div>
+      </div>
+      <div class="box">
+          <div class="imbox">
+          <slide><img src="./images/c7.jpg" alt=""></slide> 
+          </div>
+          <div class="text">
+              <h3>GLE 63 S AMG Coupè 612 CV 0-100 km/h 3.8 sec <br/> 🧡</h3>
+          </div>
+      </div>
+      <div class="box">
+          <div class="imbox">
+            <slide><img src="./images/c8.jpg" alt=""></slide> 
+          </div>
+          <div class="text">
+              <h3>Toyota Camry 70 3.5 V6 | Toyota camry, Camry, voitures Toyota <br/> ❤️ </h3>
+          </div>
+      </div>
+  </div>
+</div>
+<div class="titre">
+  <a href="#menu  " class="btn1">Voir Plus</a>
+</div>
+</section>
+
+<section class="expert" id="expert">
+  <div class="titre">
+      <h2 class="titre-texte"><span>LO</span>CATION</h2>
+      <p2 class="local">AL_khalifa_Automobile, <strong> Location</strong> de Vehicule haut de game.<br/>
+        Au cœur de nos activités se trouvent les milliers de vies que nous changeons, le service exceptionnel que nous fournissons à nos clients et candidats, et les opportunités passionnantes au sein de nos agences dans le monde entier.  Nous sommes fiers d’être la référence dans le métier de l'automobile – notre service spécialisé et personnalisé nous permet de vous garantie la securite en créant la possibilité d'atteindre son plein potentiel. </p>
+  </div>
+  <div class="contenu">
+      <div class="box">
+          <div class="imbox">
+              <img src="./images/p1.jpg" alt="">
+          </div>
+          <div class="text">
+              <h3>Peugeot Modele:308 Annee:2013</h3>
+          </div>
+      </div>
+      <div class="box">
+          <div class="imbox">
+              <img src="./images/p2.jpg" alt="">
+          </div>
+          <div class="text">
+              <h3>Ford escape 2013</h3>
+          </div>
+      </div>
+      <div class="box">
+          <div class="imbox">
+              <img src="./images/p3.jpg" alt="">
+          </div>
+          <div class="text">
+              <h3>KIA SPORTAGE AUTOMATIC</h3>
+          </div>
+      </div>
+      <div class="box">
+          <div class="imbox">
+              <img src="./images/p4.jpg" alt="">
+          </div>
+          <div class="text">
+              <h3>jEEP Grand Cherokee sumit</h3>
+          </div>
+      </div>
+      <div class="slider">
+        <div class="slides">
+        <slide><img src="./images/p5.jpg" alt=" " /></slide>
+        <slide><img src="./images/p6.jpg" alt=" " /></slide>
+        <slide><img src="./images/p7.jpg" alt=" " /></slide>
+        </div>
+    </div>
+
+      <section class="temoignage" id="temoignage">
+        <div class="titre blanc">
+            <h2 class="titre-texte">Que Disent Nos <span>C</span>lients</h2>
+            <p3 class="salon"><stron>N</stron>os clients adorent l'expérience Automobile que nous construisons. </p>
+        </div>
+        <div class="contenu">
+            <div class="box">
+                <div class="imbox">
+                    <img src="./images/t1.JPG" alt="">
+                </div>
+                <div class="text">
+                    <p>Très bon service, Un accueil très chaleureux. Réponse immédiate quand tu appelle au téléphone.Voiture bien entretenu à la livraison. On te donne le dossier complet .Merci à toutel'équipe AL_khalifa_Automobile. </p>
+                    <h3>Cheikh</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imbox">
+                    <img src="./images/t2.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p>Le meilleur concessionnaire automobile parmi plusieurs autres avec lesquels nous avons fait affaire par le passé.Les voitures sont en bon état, certifiées, réparées et propres.Les prix sont très compétitifs. Le choix est bon, pour tout budget.Le personnel est très sympathique etprofessionnel. Le plus important est qu'ils soient honnêtes et tiennent leurs promesses. Je lesrecommanderai certainement</p>
+                    <h3>Elhadji Moustapha</h3>
+                </div>
+            </div>
+            <div class="box">   
+                <div class="imbox">
+                    <img src="./images/t4.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p>Service client incroyable et employés vraiment sympas. Ils sont si patients, donnent de bons conseils et vous aident avec tout ce dont vous avez besoin. J'ai eu ma voiture là-bas et je recommanderais toute personne qui cherche à acheter une nouvelle voiture.</p>
+                    <h3>Mame Latyr</h3>
+                </div>
+            </div>
+        </div>
+     </section> 
+     <section class="contact" id="inscription">
+        <div class="titre noir">
+            <h2 class="titre-text"><span>C</span>ontact</h2>
+            <p>remplissez les champs suivants pour envoyer un message .</p>
+        </div>
+        <div class="contactform">
+            <h3>Envoyer un message</h3>
+
+            <?php include 'menunavigation.php', ?php>
+
+        <form method="POST" name="inscription">
+            <div class="inputboite">
+                <input type="text" name="identifiant" placeholder="identifiant" >
+            </div>
+            <div class="inputboite">
+               <input type="text" name="pseudo" id="Pseudo" placeholder="Pseudo">
+            </div>
+            <div class="inputboite">
+            <input type="email" name="email" placeholder="email" id="email2"><br>
+           </div>
+            <div class="inputboite">
+                <input type="password" name="mdp" id="mdp" placeholder="Mot de passe"><br>
+            </div>
+            <div class="inputboite">
+                <input type="text" name="message" id="message" placeholder="message">
+             </div><div class="inputboite">
+                <input type="submit" name="envoi" id="envoi"  value="Envoyer">
+            </div>   
+        </form>
+        </div>
+        <p style="color: red;" id="erreur"></p>
+        
+    </section>
+    
+   
+<section>
+    <footer>
+        <div class="contenir-footer">
+            <div class="bloc footer-services">
+                <h5>Nos services</h5>
+                <ul class="liste-services">
+                    <li><a href="#acceuil">Accueil</a></li>
+                    <li><a href="#apropos">A propos</a></li>
+                    <li><a href="#menu">vehicules</a></li>
+                    <li><a href="#expert">Location</a></li>
+                    <li><a href="#temoignage">Temoignage</a></li>
+                    <li><a href="#inscription">contact</a></li>
+                </ul>
+        </div>
+
+        <div class="bloc footer-contact">
+            <h5>Restons en contact</h5>
+            <p> 78-605-97-50</p>
+            <p>AkAutomobile@gmail.com</p>
+            <p>Guediawaye Hamo tefess</p>
+           
+    </div>
+
+    <div class="bloc footer-horaires">
+        <h5>les horaires</h5>
+        <ul class="liste-horaires">
+            <li>✅ lun 10h-19h</li>
+            <li>✅  mar 10h-19h</li>
+            <li>✅  mer 10h-19h</li>
+            <li>✅  jeu 10h-19h</li>
+            <li>✅  ven 10h-19h</li>
+            <li>❌ sam ferme</li>
+            <li>❌ dim ferme</li>
+        </ul>
+</div>
+
+<div class="bloc footer-medias">
+    <h5>Nos reseaux sociaux</h5>
+    <ul class="liste-medias">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    </ul>   
+</div>
+
+  
+  </div>
+    </div>
+
+ </footer>
+</section>
+    <!-- <footer>
+        <p class="copyright">&copy; 2023 - AL_khalifa_Automobile,</p>
+        <a href="" class="cgv">conditions generales de production</a>
+    </footer> -->
+
+
+    <div class="copyright">
+        <p>copyright &copy; 2023 <a href="#"> AL_khalifa_Automobile</a> . Tous droits reservé</p>
+    </div>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header =document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0 );
+        });
+   
+        function toggleMenu(){
+            const tmenuToggle = document.querySelector('.menuToggle');
+            const navbar = document.querySelector('.navbar');
+            navbar.classList.toggle('active');
+            menuToggle.classList.toggle('active');
+        }
+    </script>
+    <script src="app.js"></script>
+   </body>
+   </html>
